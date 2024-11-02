@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.des-search-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  font-family: 'Robotot';
+  font-size: 32px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+.search-styles {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  height: 45px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.input-styles {
+  background-color: #f1f5f9;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.search-img {
+  width: 30px;
+}
+
+.des-items-container {
+  list-style-type: none;
+  padding-left: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+
+  .search-styles {
+    width: 300px;
+  }
+}
